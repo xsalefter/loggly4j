@@ -68,4 +68,15 @@
 
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>xsalefter-maven-release</id>
+			<url>https://github.com/xsalefter/xsalefter-maven-repo/raw/master/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>xsalefter-maven-snapshot</id>
+			<url>https://github.com/xsalefter/xsalefter-maven-repo/raw/master/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
