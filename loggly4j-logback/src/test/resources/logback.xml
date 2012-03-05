@@ -1,0 +1,16 @@
+<configuration debug="true">
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="simpleLoggly" class="org.xsalefter.loggly4j.logback.SimpleLogbackAppender">
+		<logglyInput>https://logs.loggly.com/inputs/539096e8-e179-47da-8100-1821fa17a506</logglyInput>
+	</appender>
+
+	<root level="ALL">
+		<appender-ref ref="console" />
+		<appender-ref ref="simpleLoggly" />
+	</root>
+</configuration>
