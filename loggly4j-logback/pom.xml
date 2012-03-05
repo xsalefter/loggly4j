@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>loggly4j</artifactId>
 		<groupId>org.xsalefter.loggly4j</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 		<relativePath>..</relativePath>
 	</parent>
 	<artifactId>loggly4j-logback</artifactId>
